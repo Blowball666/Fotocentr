@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотоцентр</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" type="module"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="conteiner">
+                <div class="header__inner">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item1">
+                                <a href="#" class="menu__list-link">
+                                    <img src="img/geo.png" alt="Здесь должна быть картинка">
+                                </a>
+                            </li>
+                            <li class="menu__list-item1">
+                                <a href="#" class="menu__list-link">ФОТОЦЕНТРЫ</a>
+                            </li>
+                            <li class="menu__list-item1">
+                                <a href="#" class="menu__list-link">ВЕЛИКИЙ НОВГОРОД</a>
+                            </li>
+                        </ul>       
+                    </nav>
+                    <nav class="menu1">
+                        <ul class="menu__list1">
+                            <li class="menu__list-item2">
+                                <a href="#" class="menu__list-link">УСЛУГИ</a>
+                            </li>
+                            <li class="menu__list-item2">
+                                <a href="#" class="menu__list-link"><u>ГЛАВНАЯ</u></a>
+                            </li>
+                            <li class="menu__list-item2">
+                                <a href="#" class="menu__list-link">СУВЕНИРЫ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="search-box">
+                        <form>
+                            <input type="text" class="search-txt" required pattern="^[А-яа-я\s]+$" placeholder="Поиск">
+                            <button class="search-btn"><img src="img/poisk.png" alt="?" ></button>
+                        </form>
+                    </div>
+                    <nav class="menu2">
+                        <ul class="menu__list2">
+                            <li class="menu__list-item3">
+                                <a href="#" class="menu__list-link">
+                                    <img src="img/prof.png" alt="Здесь должна быть картинка">
+                                </a>
+                            </li>
+                            <li class="menu__list-item3">
+                                <a href="#" class="menu__list-link">
+                                    <img src="img/korzina.png" alt="Здесь должна быть картинка">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+    <main class="main">
+        <section class="top">
+            <div class="main__foto">
+                <a href=" "><img class="osn1" src="img/1_1.jpg"></a>
+                <a href=" "><img class="osn2" src="img/1_2.jpg"></a>
+                <a href=" "><img class="osn3" src="img/1_3.jpg"></a>
+            </div>
+            <div class="main__conteiner">
+                <h1 class="title">ФОТОЦЕНТР</h1>
+                <a href="#" class="top__link">
+                    ПОЗВОНИТЬ
+                </a>
+            </div>
+            <div class="main__text">
+            <p class="text_1">Печатаем ваши<br>воспоминания!</p>
+            <p class="text_2">Мы имеем огромный опыт работы, поэтому<br>гарантируем высокое качество, быструю скорость<br>обработки всех заказов.</p>
+            <p class="text_3">Мы сохраним<br>для Вас моменты...<br>навсегда!</p>
+            <p class="text_4">У нас работают лучшие специалисты с большим<br>опытом работы. Они помогут сделать<br>фотографии красивыми и качественными.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__conteiner">
+            <div class="footer__nav">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">О КОМПАНИИ</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">ФОТОЦЕНТРЫ</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">РАБОТА У НАС</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__soc_sety">
+                    <a href="#"><img src="img/tg.png" alt="Здесь должна быть картинка"></a>
+                    <a href="#"><img src="img/tik.png" alt="Здесь должна быть картинка"></a>
+                    <a href="#"><img src="img/vk.png" alt="Здесь должна быть картинка"></a>
+                </div>
+            </div>
+            <div class = "footer__vertical"></div>
+            <iframe class="footer__karta" src="https://www.google.com/maps/embed?pb=!1m14..." width="55%" height="45%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <form>
+            <label>Введите поисковой запрос состоящий только из русских букв?</label>
+            <input required pattern="^[А-яа-я\s]+$">
+            <button>Submit</button>
+          </form>
+    </footer>
+    </div>
+</body>
+</html>
